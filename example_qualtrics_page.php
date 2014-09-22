@@ -1,3 +1,5 @@
+#!/usr/local/bin/php
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,7 +21,7 @@
     // The language we're using here is called PHP.
     // Variables in PHP have a dollar sign in front of them. For example, $example is a variable.
     // Every line of code has to have a semicolon (;) at the end of it, to show that that's the end of the line.
-    // We're going to use the code that we loaded above and use it to create a variable. We can get at the data within that variable with an arrow. For example, $variable_name->option_name = "whatever"
+    // We're going to use the code that we loaded above and use it to create a variable. We can set the data within that variable with an arrow. For example, $variable_name->option_name = "whatever"
     // Your Qualtrics survey needs to be set up to redirect the user to this page upon survey completion, and for that redirect to also tell this page what the user's Qualtrics Response ID is. To do this, go in to edit the survey within Qualtrics, and click "Survey Flow." Add an "End of Survey" element at the end of the survey flow. In that "End of Survey" element, click "Customize," and choose "Redirect to a URL". The URL should be, e.g., (what's important is at the end) http://www.example.com/example_qualtrics_page.php?id=${e://Field/ResponseID}, where "http://www.example.com/example_qualtrics_page.php" is replaced with the address of this page.
 // Ok, we're ready to start!
 /////////////////////////////////////////////////////////////
