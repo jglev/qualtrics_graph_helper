@@ -1,5 +1,12 @@
 <?php
 
+##################################################
+# Qualtrics Graph Helper
+# Jacob Levernier (adunumdatum.org)
+# April 2014
+# Distributed under the MIT License
+##################################################
+
 function load_highcharts_code() { // This just prints out the code for HighCharts (the idea here is to make it easier for non-coders to use).
     echo '
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>

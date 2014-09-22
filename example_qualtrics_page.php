@@ -9,6 +9,13 @@
 
     <?php // This just says that this is the start of a block of PHP code.
 
+        ##################################################
+        # Qualtrics Graph Helper Example Page
+        # Jacob Levernier (adunumdatum.org)
+        # April 2014
+        # Distributed under the MIT License
+        ##################################################
+
         require "qualtrics_graph_helper.php"; // This loads the code from the file.
         
         load_highcharts_code(); // This takes the file loaded above and prints out a bit of code necessary to make the charts work later on.
