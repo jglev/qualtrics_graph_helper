@@ -13,12 +13,12 @@ class QualtricsDataProcessor
 
     public $qualtrics_options = array(
       "Request" => "getLegacyResponseData",
-      "User" => "", // Your Qualtrics username. Down below, we will urlencode this so that the '#' becomes '%23' (which is its html url-safe equivalent).
+      "User" => "", // Your Qualtrics username (see Account Settings -> Qualtrics IDs -> Recent Logins).
       "API_SELECT" => "ControlPanel",
       "Version" => "2.3",
       "Token" => "", // You can get your Qualtrics Token through Account Settings -> Qualtrics IDs -> Generate Token.
       "Format" => "JSON",
-      "SurveyID" => "" // The Qualtrics Survey ID
+      "SurveyID" => "" // Your Survey ID (see Account Settings -> Qualtrics IDs -> Surveys)
     );
 
 
